@@ -1,92 +1,92 @@
+
+
 Visa Navigator 🌍
-Your one-stop portal for exploring visa requirements, applying for visas, and tracking applications effortlessly.
+Simplify your journey with Visa Navigator – your reliable partner for visa requirements, applications, and tracking.
 
-Live Website :   https://visa-client-project.web.app/
+Live Website  :  https://visa-client-project.web.app/
 
-Features
-Visa Management Made Easy: Explore, add, update, and delete visa entries with ease.
-Secure Authentication: Google login and email-password authentication ensure a safe user experience.
-Dynamic Visa Applications: Submit and track visa applications directly through the portal.
-Search and Filter: Quickly find visa details and applications using search and filter features.
-Dark/Light Theme Toggle: Customize your browsing experience with a theme switcher.
-Technologies Used
-Frontend: React, Tailwind CSS, Daisy UI, React Router, Firebase Authentication
-Backend: Node.js, Express.js, MongoDB, dotenv for secure environment variables
-Deployment:
+Website Highlights
+Explore Visas Effortlessly
+
+Browse detailed visa information by country, type, and requirements.
+Secure Application Process
+
+Submit visa applications seamlessly with robust data management.
+User-Friendly Dashboard
+
+View and manage your added visas and applications in one place.
+Interactive Features
+
+Responsive design with engaging animations and theme toggling for a modern user experience.
+Advanced Search and Filters
+
+Quickly find visas or applications with powerful search and filtering options.
+Technology Stack
+Frontend: React, Tailwind CSS, Daisy UI
+Backend: Node.js, Express.js, MongoDB
+Authentication: Firebase (Google and Email-based)
+Hosting:
 Client: Netlify
 Server: Vercel
-Setup Instructions
-Clone the Repository
+Key Functionalities
+Visa Management
+
+Add, update, and delete visa details.
+Authentication
+
+Secure login and registration using Google and email-password methods.
+Dynamic Application Tracking
+
+Apply for visas and track your progress in real-time.
+Accessibility
+
+Fully responsive design for desktop, tablet, and mobile devices.
+Search and Filter
+
+Find visas by type and search applications by country name.
+Setup Guide
+Frontend Setup
+Clone the repository and navigate to the client folder:
 bash
 Copy code
 git clone https://github.com/your-username/visa-navigator.git
-cd visa-navigator
-Client-Side Setup
-Navigate to the client directory:
-bash
-Copy code
-cd client
+cd visa-navigator/client
 Install dependencies:
 bash
 Copy code
 npm install
-Create a .env file and add your Firebase configuration keys.
+Add your Firebase configuration to a .env file.
 Start the development server:
 bash
 Copy code
-npm run dev
-Server-Side Setup
-Navigate to the server directory:
+npm start
+Backend Setup
+Navigate to the server folder:
 bash
 Copy code
-cd server
+cd visa-navigator/server
 Install dependencies:
 bash
 Copy code
 npm install
-Create a .env file and add your MongoDB URI and JWT secret.
+Configure the .env file with your MongoDB URI and Firebase credentials.
 Start the server:
 bash
 Copy code
 npm start
-Pages Overview
-Public Pages
-Home: Banner, latest visas, extra sections.
-All Visas: Browse all available visa entries.
-Login/Registration: Secure login and account creation.
-Protected Pages
-Add Visa: Add new visa entries to the database.
-My Added Visas: View, update, and delete visas added by the user.
-My Visa Applications: Track applications submitted by the user.
 Screenshots
 Home Page
 
-All Visas Page
+Visa Details Page
 
-How to Contribute
-Fork the repository.
-Create a new branch for your feature or bugfix:
-bash
-Copy code
-git checkout -b feature-name
-Commit your changes with meaningful messages:
-bash
-Copy code
-git commit -m "Add feature-name"
-Push to your branch:
-bash
-Copy code
-git push origin feature-name
-Open a pull request.
-License
-This project is licensed under the MIT License.
+My Applications Page
 
 Contact
-If you have any questions or feedback, feel free to reach out!
+Have questions or suggestions? Contact us at:
 
-Email: your-email@example.com
-GitHub: your-username
-Let me know if you need more customization or details!
+Email: support@visa-navigator.com
+GitHub: Visa Navigator Repository
+
 
 
 
