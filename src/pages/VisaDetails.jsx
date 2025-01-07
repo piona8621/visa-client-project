@@ -66,7 +66,7 @@ const VisaDetails = () => {
 
   useEffect(() => {
     // Fetch visa details
-    fetch(`http://localhost:5000/visa/${id}`)
+    fetch(`https://visa-server-project.vercel.app/visa/${id}`)
       .then((res) => res.json())
       .then((data) => {
         setVisa(data);
@@ -83,7 +83,7 @@ const VisaDetails = () => {
   const handleApply = (e) => {
     e.preventDefault();
 
-    fetch('http://localhost:5000/apply-visa', {
+    fetch('https://visa-server-project.vercel.app/apply-visa', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(formData),

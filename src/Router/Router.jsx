@@ -12,6 +12,9 @@ import VisaDetails from "../pages/VisaDetails";
 import AddVisa from "../pages/AddVisa";
 import MyApplications from "../pages/MyApplications";
 import NotFound from "../pages/NotFound";
+import About from "../pages/About";
+import ContactPage from "../pages/ContactPage";
+// import SupportPage from "../Components/SupportPage";
 
 
 
@@ -21,7 +24,7 @@ const Router = createBrowserRouter([
   {
     path: '/',
     element: <HomeLayout></HomeLayout>,
-    loader: () => fetch('http://localhost:5000/visa'),
+    loader: () => fetch('https://visa-server-project.vercel.app/visa'),
     
 
   },
@@ -39,7 +42,7 @@ const Router = createBrowserRouter([
    element: <PrivateRoute>
     <MyAddedVisas></MyAddedVisas>
    </PrivateRoute>,
-   loader: () => fetch('http://localhost:5000/visa')
+   loader: () => fetch('https://visa-server-project.vercel.app/visa')
    
   },
 
@@ -54,7 +57,7 @@ const Router = createBrowserRouter([
     element: <PrivateRoute>
       <MyApplications></MyApplications>
     </PrivateRoute>,
-    loader: () => fetch('http://localhost:5000/apply-visa')
+    loader: () => fetch('https://visa-server-project.vercel.app/apply-visa')
     
   },
 
@@ -63,7 +66,7 @@ const Router = createBrowserRouter([
   {
        path: '/all-visas',
        element: <AllVisas></AllVisas>,
-       loader: () => fetch('http://localhost:5000/visa')
+       loader: () => fetch('https://visa-server-project.vercel.app/visa')
   },
 
   {
@@ -71,6 +74,14 @@ const Router = createBrowserRouter([
     element: <PrivateRoute>
       <VisaDetails></VisaDetails>
     </PrivateRoute>
+  },
+  {
+     path: '/about',
+     element: <About></About>
+  },
+  {
+     path: '/contact',
+     element: <ContactPage></ContactPage>
   },
 
   {

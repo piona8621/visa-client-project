@@ -62,6 +62,8 @@ import { CiFacebook, CiTwitter, CiLinkedin } from 'react-icons/ci';
 import { Typewriter } from 'react-simple-typewriter';
 import { Fade, Slide, Zoom } from 'react-awesome-reveal';
 
+
+
 const Footer = () => {
   return (
     <footer className="bg-blue-900 opacity-80 text-white py-6 mt-10">
@@ -94,6 +96,8 @@ const Footer = () => {
             <p className="text-sm">Phone: (123) 456-7890</p>
           </div>
         </Slide>
+
+        
 
         {/* Social Media Links */}
         <Zoom>

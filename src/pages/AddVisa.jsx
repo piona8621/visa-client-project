@@ -50,7 +50,7 @@ const AddVisa = () => {
       return;
     }
 
-    fetch('http://localhost:5000/visa', {
+    fetch('https://visa-server-project.vercel.app/visa', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(formData),

@@ -6,7 +6,7 @@
 
 import React, { useState, useEffect } from "react";
 
-const ThemeToggle = () => {
+const Home= () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
 
 
@@ -54,4 +54,4 @@ const ThemeToggle = () => {
   );
 };
 
-export default ThemeToggle;
+export default Home;
