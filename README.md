@@ -3,7 +3,7 @@
 Visa Navigator 🌍
 Simplify your journey with Visa Navigator – your reliable partner for visa requirements, applications, and tracking.
 
-Live Website  :  https://visa-client-project.web.app/
+Live Website  :  https://client-visa-project.web.app/
 
 Website Highlights
 Explore Visas Effortlessly
